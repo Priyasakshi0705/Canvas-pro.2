@@ -68,3 +68,7 @@ function circle(current_mouse_x, current_mouse_y){
     ctx.arc(current_mouse_x,current_mouse_y,42,0,2*Math.PI);
     ctx.stroke();
 }
+
+function Clear(){
+    ctx.clearRect(0,0,canvas.width,canvas.height)
+}
